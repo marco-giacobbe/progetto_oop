@@ -1,0 +1,4 @@
+<serverconfig>
+	<port>9000</port>
+	<maxconnection>10</maxconnection>
+</serverconfig>

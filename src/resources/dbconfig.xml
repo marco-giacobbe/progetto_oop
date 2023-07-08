@@ -1,0 +1,9 @@
+<dbconfig>
+	<driver>com.mysql.cj.jdbc.Driver</driver>
+	<dbtype>mysql</dbtype>
+	<ip>localhost</ip>
+	<port>3306</port>
+	<database>SegretoDB</database>
+	<username>root</username>
+	<password>root.password</password>
+</dbconfig>
