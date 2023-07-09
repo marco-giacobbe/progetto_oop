@@ -20,8 +20,8 @@ public class Server{
 	private String password;
 	private int port;
 	private int max_conn;
-	private static final String DBCONFIG_FILENAME = "dbconfig.xml";
-	private static final String SERVERCONFIG_FILENAME = "serverconfig.xml";
+	private static final String DBCONFIG_FILENAME = "../../resources/dbconfig.xml";
+	private static final String SERVERCONFIG_FILENAME = "../../resources/serverconfig.xml";
 
 	public Server() {
 		initializeDBProperties();
