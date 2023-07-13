@@ -27,7 +27,7 @@ public class ClientHandler extends Host implements Runnable {
 	private String clientName;
 	private ScheduledExecutorService exService;
 	private ScheduledFuture<?> scheduledTask;
-	private static final int KEEPALIVE_TIMEOUT = 10;
+	private static final int KEEPALIVE_TIMEOUT = 300;
 
 	public ClientHandler(Socket socket, Semaphore semaphore, String url, String username, String password,
 				String driver, String database) {
