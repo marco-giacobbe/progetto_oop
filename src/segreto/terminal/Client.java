@@ -29,7 +29,7 @@ public class Client extends Host {
 	private KeyManager clientKey;
 	private int port;
 	private String ip;
-	private static final String CLIENTCONFIG_FILENAME = "../clientconfig.xml";
+	private static final String CLIENTCONFIG_FILENAME = "../src/resources/clientconfig.xml";
 
 	public Client() {
 		String[] data = new XMLManager(CLIENTCONFIG_FILENAME, new ClientConfigHandler()).parse();
